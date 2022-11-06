@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Billiard</title>
+		<meta charset="utf-8" />
+	</head>
+	<style>
+		#canvas {
+			width: 800px; height: 450px;
+			touch-action: none;
+		}
+	</style>
+		<body onload="init()">
+		<button onclick="location.reload();">Retry</button>
+		<br>
+		<script src="Tiny2D.js"></script>
+		<script src="index.js" async defer></script>
+		<canvas id="canvas" width="800" height="450"></canvas>
+		<img id="billiard" src="billiard.png" style="display:none" />
+	</body>
+</html>
